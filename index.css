@@ -1,0 +1,41 @@
+form {
+  font-size: 19px;
+  display: flex;
+  padding-right: 70px;
+  margin: 10px;
+  margin-top: 0;
+}
+#Name {
+  padding-right: 50px;
+  margin: 10px;
+  margin-top: 0;
+}
+#Email {
+  padding-right: 50px;
+  margin: 10px;
+  margin-top: 0;
+}
+#Phonenumber {
+  padding-right: 50px;
+  margin: 10px;
+  margin-top: 0;
+}
+#submit {
+  margin: 10px;
+  margin-top: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 15px;
+  background-color: rgb(222, 220, 100);
+}
+li {
+}
+.button {
+  background-color: rgba(224, 72, 117, 0.597);
+  color: black;
+  border-radius: 15px;
+  padding: 3px;
+  padding-left: 7px;
+  margin-left: 3px;
+  padding-right: 7px;
+}
