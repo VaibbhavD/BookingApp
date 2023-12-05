@@ -57,7 +57,7 @@ function addinfo() {
   // store into srever
   axios
     .post(
-      "https://crudcrud.com/api/c9b435fe9a10412a85ee13f18620ad5b/AppointmentData",
+      "https://crudcrud.com/api/ec0795e50a984e9ca57933dc14e98c29/AppointmentData",
       newinfo
     )
     .then((response) => console.log(response))
@@ -79,3 +79,14 @@ function addinfo() {
     // localStorage.removeItem("user " + infoemail.textContent);
   }
 }
+window.addEventListener("DOMContentLoaded", () => {
+  axios.get;
+  "https://crudcrud.com/api/ec0795e50a984e9ca57933dc14e98c29/AppointmentData"()
+    .then((re) => {
+      console.log(re);
+      for (var i = 0; i < re.data.length; i++) {
+        console.log(re.data[i]);
+      }
+    })
+    .catch((error) => console.log(error));
+});
